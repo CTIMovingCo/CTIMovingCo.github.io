@@ -16,8 +16,8 @@ function createWindow () {
     }
   })
 
-  // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
+  // and load the totoV.html of the app.
+  mainWindow.loadFile('totoV.html')
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
