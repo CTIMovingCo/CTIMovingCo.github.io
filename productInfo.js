@@ -1,5 +1,5 @@
 // totoV application version
-var totoV = "0.6.0"
+var totoV = "0.7.0"
 // Copyright 2019 lawrence Edinger
 
 

@@ -20,17 +20,17 @@ h2,h3,h4,h5,p,a {
     margin: 20px;
 }
 a:visited {
-    color: "blue";
+    color: #333;
 }
 button {
     background-color: #f0f0f0;
     
 }
-.alert p {
+.alert{
     border-left: 6px solid red;
     background-color: #ececec;
 }
-.notif p {
+.notif {
     border-left: 6px solid #3399ff;
     background-color: #ececec;
 }
