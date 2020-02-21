@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../../../css.css">
+    <link rel="stylesheet" href="../../../fonts/MunroRegular/stylesheet.css" type="text/css" charset="utf-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <title>totoV</title>
+  </head>
+
+  <body>
+    <script src="PXtoEM.js"></script>
+    <a href="../../../index.html">
+      <image src="../../../images/totoVlogo.png" width="298" height="111" /></a>
+    <h3>PX to EM to % (Click TotoV to return home)</h3>
+    <p>In CSS, EM is a measurement of the percentage of its parent. If the text size of the body is 16 px, then 150% or 1.5 EM will be 24 pixels. Generally the default value is 16 px.</p>
+    <p>Set a default pixel size as determined by your desiered body text size.</p>
+    <input id="defaultPX" type="text" value="16">px
+    <p>Convert PX to EM by entering your desiered PX here:</p>
+    <input id="px" type="text" onfocus="pxFocus()" onblur="pxBlur()">px
+    <p>Convert EM to PX by entering your desiered EM here:</p>
+    <input id="em" type="text" onfocus="emFocus()" onblur="emBlur()">em
+
+    <button id="confirm" onclick="convert()">CONVERT</button>
+    <p id="errorP"> </p>
+  </body>
+
+</html>

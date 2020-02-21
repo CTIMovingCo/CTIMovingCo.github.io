@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../../../css.css">
+    <link rel="stylesheet" href="../../../fonts/MunroRegular/stylesheet.css" type="text/css" charset="utf-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <title>totoV</title>
+  </head>
+
+  <body>
+    <script src="aspectratiocalc.js"></script>
+    <a href="../../../index.html">
+      <image src="../../../images/totoVlogo.png" width="298" height="111" /></a>
+    <h3>Aspect Ratio Calculator (Click totoV to return home)</h3>
+    <p>Enter width and height for result.</p>
+    WIDTH <input id="w" type="">
+    HEIGHT <input id="h" type="">
+    <p>Recalculate the resolution with a multiplier.</p>
+    MULTIPLIER <input id="Multiplier" type="">
+    <p>Recalculate with a given height or width.</p>
+    DESIERED WIDTH <input id="dWidth">
+    DESIERED HEIGHT <input id="dHeight">
+    <br />
+    <br />
+    <button id="confirm" onclick="formatImage()">CALCULATE</button>
+    <p id="errorP"> </p>
+    <div style="border: 1px solid black;">
+      <h4>Preview:</h4>
+      <image id="stretchTag" style="size: 50%;"src="../../../images/stretch.png"></image>
+    </div>
+  </body>
+
+</html>
